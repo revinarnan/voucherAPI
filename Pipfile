@@ -5,6 +5,7 @@ verify_ssl = true
 [packages]
 dj-database-url = "*"
 django = "*"
+djangorestframework = "*"
 gunicorn = "*"
 psycopg2 = "*"
 virtualenv = "*"
