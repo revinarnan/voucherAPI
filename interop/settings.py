@@ -26,7 +26,9 @@ SECRET_KEY = '+1hm$%ex029cf7pn$g7povd85s45j^lj9*1=g_+jj1dp_y@!i8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'api-voucher.herokuapp.com'
+]
 
 # Application definition
 
