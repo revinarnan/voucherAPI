@@ -27,7 +27,8 @@ SECRET_KEY = '+1hm$%ex029cf7pn$g7povd85s45j^lj9*1=g_+jj1dp_y@!i8'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'api-voucher.herokuapp.com'
+    'api-voucher.herokuapp.com',
+    '127.0.0.1'
 ]
 
 # Application definition
