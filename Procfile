@@ -1,1 +1,1 @@
-web: gunicorn interop.wsgi --log-file -
+web: gunicorn interop.wsgi --log-file error_logs.log
