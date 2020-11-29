@@ -10,7 +10,8 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
-import dj_database_url
+#hapus komen untuk migrate database ke heroku
+#import dj_database_url
 import os
 from pathlib import Path
 
@@ -126,4 +127,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
+#Hapus komen untuk migrate ke database heroku
+#DATABASES['default'] = dj_database_url.config(conn_max_age=600, ssl_require=True)
